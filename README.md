@@ -1,2 +1,2 @@
 # takef-demo
-小的，丰富简历的demo
+小的demo
