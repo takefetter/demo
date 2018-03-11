@@ -1,5 +1,5 @@
 # Photo_mosaic
-  从[Python playground](https://github.com/electronut/pp) 中的photomosaic fork而来,可将图片转换为ascii码的形式.  
+  从[Python playground](https://github.com/electronut/pp) 中的photomosaic fork而来,可将图片改为马赛克的形式(模糊处理).
 ## 原理:  
        1.读取一些小块图像(getImages()函数),他们将取代原始图像中的小块
 	   2.使用pillow读取图片,将图像分为M(行)*N(列)个小块(将图片分割成网格,splitImage()函数)
