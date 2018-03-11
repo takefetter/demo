@@ -7,3 +7,8 @@
 	   3.修正M以匹配图像和字体的横纵比
 	   4.计算每个小块图像的平均亮度,然后为每个小块查找合适的ASCII字符
 	   5.汇集各行ASCII字符串,将它们打印到文件,形成最终图像
+
+## 使用方法:
+	python picture_to_ascii.py --file ./image/test.jpg
+	
+	输出out.txt位于ascii当前目录下
