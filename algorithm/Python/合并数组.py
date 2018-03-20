@@ -12,13 +12,12 @@ def combine_2_list(a, b):
                 break  # 为啥要break？因为到此位置，说明b数组不能继续往下遍历了，该遍历a了
 
         # 现在就需要吧两个数组中剩余的元素依次append到c中即可
-    if (counta < len(a)):
+    if counta < len(a):
         for i in range(counta, len(a)):
             c.append(a[i])
-    if (countb < len(b)):
+    if countb < len(b):
         for j in range(countb, len(b)):
             c.append(b[j])
-    print(c)
     return c
 
 
