@@ -1,2 +1,3 @@
 # takef-demo
-小的demo
+Demo and Algorithm  
+Python Ver3.6.3
