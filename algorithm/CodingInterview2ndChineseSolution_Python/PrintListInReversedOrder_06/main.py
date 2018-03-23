@@ -17,7 +17,7 @@ class Solution:
         head = listNode
         while head:
             l.insert(0, head.val)  # LinkList a->b->c
-            head = head.next       # list     c->val->b.val->a.val->l[0]
+            head = head.next  # list     c->val->b.val->a.val->l[0]
         return l
 
 
