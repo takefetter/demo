@@ -34,6 +34,9 @@
 # idea
 .idea
 
+# pycache
+__pyacache__
+
 # note
 note.md
 
