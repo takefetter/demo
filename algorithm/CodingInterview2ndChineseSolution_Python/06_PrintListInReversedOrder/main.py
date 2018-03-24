@@ -18,7 +18,14 @@ class Solution:
         while head:
             l.insert(0, head.val)  # LinkList a->b->c
             head = head.next  # list     c->val->b.val->a.val->l[0]
-        return l
+        return
+
+    def printListFromTailToHead1(self, listNode):
+
+        # write code here 
+        if listNode is None:
+            return []
+        return self.printListFromTailToHead(listNode.next) + [listNode.val]
 
 
 node1 = ListNode(10)

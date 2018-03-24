@@ -1,5 +1,6 @@
-from algorithm.CodingInterview2ndChineseSolution_Python.ConstructBinaryTree_07.main import Solution as BTree
+# from algorithm.CodingInterview2ndChineseSolution_Python.ConstructBinaryTree_07.main import Solution as BTree
 ##无法运行,
+# from algorithm.CodingInterview2ndChineseSolution_Python import
 
 class TreeLinkNode:
     def __init__(self, x):
