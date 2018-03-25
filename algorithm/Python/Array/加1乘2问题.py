@@ -17,5 +17,5 @@ def Solution(a):
 
 
 if __name__ == '__main__':
-    count_ = Solution(10000)
+    count_ = Solution(4)
     print(count_)
