@@ -5,6 +5,7 @@
 TODO
 '''
 
+
 # -*- coding:utf-8 -*-
 class Solution:
     # 返回[a,b] 其中ab是出现一次的两个数字
@@ -16,7 +17,7 @@ class Solution:
             resultExclusiveOr ^= i
 
         indexOf1 = self.FindFirstBitIs1(resultExclusiveOr)
-        num1, num2 = 0
+        num1, num2 = 0, 0
         for j in range(len(array)):
             if self.IsBit1(array[j], indexOf1):
                 num1 ^= array[j]
@@ -36,6 +37,6 @@ class Solution:
         return num & 1
 
 
-aList = [2, 2, 3, 6, 3, 3, 2, 5, 5, 5]
+aList = [2, 3, 6, 3, 2, 5, 5, 7]
 s = Solution()
 print(s.FindNumsAppearOnce(aList))

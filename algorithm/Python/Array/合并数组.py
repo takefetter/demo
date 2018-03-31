@@ -21,11 +21,18 @@ def combine_2_list(a, b):
     return c
 
 
+def combine2(a, b):
+    c = a + b
+    c.sort()
+    return c
+
+
 def main():
     a = [1, 2, 3, 4, 5, 6]
     b = [3, 4, 6, 7, 8]
     count = combine_2_list(a, b)
     print(count)
+    print(combine2(a, b))
 
 
 if __name__ == '__main__':
